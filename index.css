@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "InterBold";
+  src: url(./assets/fonts/static/Inter-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "InterRegular";
+  src: url(./assets/fonts/static/Inter-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "InterSemi";
+  src: url(./assets/fonts/static/Inter-SemiBold.ttf) format("truetype");
+}
+
+
+body{
+  background-color:hsl(0, 0%, 8%);
+}
+
+.card{
+  background-color:hsl(0, 0%, 12%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 30rem; 
+  height: 50rem; 
+  align-items:center;
+  display:block;
+  margin:auto; 
+  text-align:center;
+  border-radius: .5rem; 
+}
+
+.items{ 
+  margin-left:auto; 
+  margin-right: auto; 
+}
+
+img{
+  border-radius:6.25rem; 
+  width: 20%; 
+  margin-top:5rem; 
+}
+
+.buttons{
+  display:flex ;
+  flex-flow:column;
+  text-align:center; 
+  align-items:center; 
+}
+
+a{
+  background-color: hsl(0, 0%, 20%); 
+  color: hsl(0, 0%, 100%); 
+  border: none; 
+  width: 20rem; 
+  height: 3rem;
+  margin: .5rem 1rem 1rem 1rem; 
+  border-radius: 5px; 
+  text-decoration: none; 
+  font-family:"InterSemi"; 
+}
+
+a:hover{
+  background-color:hsl(0, 0%, 100%);
+  color:hsl(0, 0%, 12%); 
+}
+
+.name{
+  font-family:"InterBold"; 
+  color: hsl(0, 0%, 100%);
+  font-size: 2rem;
+  margin-bottom:0; 
+}
+
+.city{
+  font-family: "InterRegular"; 
+  color: rgb(200, 255, 0);
+  font-size: 1rem;
+  margin-bottom:2rem; 
+}
+
+.bio{
+  font-family:"InterSemi";
+  color:hsl(0, 0%, 100%); 
+  font-size:.8rem; 
+}
